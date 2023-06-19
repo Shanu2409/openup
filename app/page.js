@@ -1,7 +1,12 @@
+"use client";
+
 import Image from 'next/image'
+import {useState} from "react";
 
 
 export default function Home() {
+
+    const [s, setS] = useState(0);
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
